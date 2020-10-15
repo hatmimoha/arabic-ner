@@ -1,4 +1,4 @@
-Named Entity Recognition System for Arabic.
+# Named Entity Recognition System for Arabic.
 
 The system can annotate the following entities:
 1. **PERSON**
