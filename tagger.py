@@ -72,7 +72,7 @@ for entry in last_hidden_states:
         sentence_outputs.append({token: label})
     outputs.append(sentence_outputs)
 
-# Post-process the resuls
+# Post-process the output
 result = postprocess(outputs)
 logging.info('Text proceeded in %s' % str(time.time() - start_time))
 
