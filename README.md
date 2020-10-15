@@ -87,7 +87,7 @@ The system can annotate the following entities:
 
 ## Training Corpus
 
-The training corpus is made of 378.000 tokens (14.000 sentences) collected from the Web and annotated automatically.
+The training corpus is made of 378.000 tokens (14.000 sentences) collected from the Web and annotated manually.
 
 ## Results
 
