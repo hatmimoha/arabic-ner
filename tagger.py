@@ -1,6 +1,6 @@
 import torch
 from transformers import AutoModelForTokenClassification, AutoTokenizer
-from mouseatwork.utils.helpers import preprocess, postprocess
+from helpers import preprocess, postprocess
 import numpy as np
 import logging
 import time
@@ -12,8 +12,8 @@ TAGS = ["B-PERSON", "I-PERSON", "B-ORGANIZATION", "I-ORGANIZATION", "B-LOCATION"
 
 # Load the model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-tokenizer = AutoTokenizer.from_pretrained('/home/workali/Desktop/mouseatwork/torchserve-examples/arabic-ner', do_lower_case=False)
-model = AutoModelForTokenClassification.from_pretrained("/home/workali/Desktop/mouseatwork/torchserve-examples/arabic-ner")
+tokenizer = AutoTokenizer.from_pretrained('hatmimoha/arabic-ner', do_lower_case=False)
+model = AutoModelForTokenClassification.from_pretrained("hatmimoha/arabic-ner")
 
 # Tag the text
 start_time = time.time()
