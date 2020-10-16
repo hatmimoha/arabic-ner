@@ -70,6 +70,27 @@ The system can annotate the following entities:
 -  الأزمات المشابهة مثل “ ***انفلونزا الطيور*** ” و ” ***انفلونزا الخنازير***
 
 ## Example
+First install the required libraries
+
+```
+python3 -m venv venv
+
+```
+
+```
+source venv/bin/activate
+
+```
+
+```
+pip install -r requirements.txt
+
+```
+
+```
+python tagger.py
+
+```
 
 ### Input
 
