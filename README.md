@@ -51,7 +51,7 @@ The system can annotate the following entities:
 
 -  في مباراة ***كأس السوبر الأوروبي*** 
 
-7. **PRICE**
+7. **PRIZE**
 
 -  ***جائزة نوبل ل لآداب***
 
